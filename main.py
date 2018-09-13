@@ -10,18 +10,18 @@ with open(csvpath, newline="") as csvfile:
 
     total_votes = 0
     voter_id = []
-    candiates = []
+    canidates = []
     voter_count = 0
 
     for row in csvreader:
         voter_id.append(row[0])
-        candiates.append(row[2])
+        canidates.append(row[2])
 
 total_votes = len(voter_id)
-candiates = list(set(candiates))
+canidates = list(set(canidates))
 
-for i in range (len(candidates)):
-    if i == candiates
+for i in range (len(canidates)):
+    if i == canidates
         count += 1
     voter_count.append(count)
     count = 0
